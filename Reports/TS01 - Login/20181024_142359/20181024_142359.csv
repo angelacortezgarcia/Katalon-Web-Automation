@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS01 - Login,Firefox 60.0,,2018-10-24 14:24:04,2018-10-24 14:24:42,37.524s,INCOMPLETE
+,,,,,,
+Test Cases/Login via gmail/TC01 - enter gmail account,Firefox 60.0,,2018-10-24 14:24:05,2018-10-24 14:24:25,20.711s,FAILED
+openBrowser,Firefox 60.0,,2018-10-24 14:24:05,2018-10-24 14:24:13,7.706s,PASSED
+navigateToUrl,Firefox 60.0,,2018-10-24 14:24:13,2018-10-24 14:24:22,8.743s,PASSED
+click,Firefox 60.0,,2018-10-24 14:24:22,2018-10-24 14:24:22,0.594s,PASSED
+click,Firefox 60.0,,2018-10-24 14:24:22,2018-10-24 14:24:23,0.819s,PASSED
+switchToWindowTitle,Firefox 60.0,,2018-10-24 14:24:23,2018-10-24 14:24:24,0.714s,PASSED
+setText,Firefox 60.0,,2018-10-24 14:24:24,2018-10-24 14:24:25,1.552s,PASSED
+click,Firefox 60.0,,2018-10-24 14:24:25,2018-10-24 14:24:25,0.125s,FAILED
+,,,,,,
+Test Cases/Login via username/TC01 - Enter uname and pword,Firefox 60.0,,2018-10-24 14:24:25,2018-10-24 14:24:42,16.294s,FAILED
+openBrowser,Firefox 60.0,,2018-10-24 14:24:26,2018-10-24 14:24:34,7.627s,PASSED
+navigateToUrl,Firefox 60.0,,2018-10-24 14:24:34,2018-10-24 14:24:41,7.758s,PASSED
+setText,Firefox 60.0,,2018-10-24 14:24:41,2018-10-24 14:24:42,0.338s,FAILED

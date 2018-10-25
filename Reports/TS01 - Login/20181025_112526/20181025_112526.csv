@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS01 - Login,Firefox 60.0,,2018-10-25 11:25:30,2018-10-25 11:26:38,1m - 8.145s,PASSED
+,,,,,,
+Test Cases/Login via username/TC01 - Enter uname and pword,Firefox 60.0,,2018-10-25 11:25:31,2018-10-25 11:26:38,1m - 6.438s,PASSED
+openBrowser,Firefox 60.0,,2018-10-25 11:25:33,2018-10-25 11:26:00,27.157s,PASSED
+navigateToUrl,Firefox 60.0,,2018-10-25 11:26:00,2018-10-25 11:26:30,30.375s,PASSED
+setText,Firefox 60.0,,2018-10-25 11:26:30,2018-10-25 11:26:30,0.364s,PASSED
+setEncryptedText,Firefox 60.0,,2018-10-25 11:26:30,2018-10-25 11:26:31,0.233s,PASSED
+click,Firefox 60.0,,2018-10-25 11:26:31,2018-10-25 11:26:38,7.034s,PASSED
+closeBrowser,Firefox 60.0,,2018-10-25 11:26:38,2018-10-25 11:26:38,0.002s,NOT_RUN

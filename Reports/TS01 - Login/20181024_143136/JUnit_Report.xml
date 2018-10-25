@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS01 - Login" time="26" tests="1" failures="0" errors="0">
+   <testsuite name="TS01 - Login" tests="1" failures="0" errors="0" time="26" timestamp="2018-10-24 14:31:42" hostname="Guest Admin - 192.168.1.107" id="Test Suites/TS01 - Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Guest Admin\\Desktop\\New folder\\Web Automation\\Reports\\TS01 - Login\\20181024_143136"/>
+         <property name="logFiles" value="C:\\Users\\Guest Admin\\Desktop\\New folder\\Web Automation\\Reports\\TS01 - Login\\20181024_143136\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Guest Admin - 192.168.1.107"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.0.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="192.168.1.107"/>
+         <property name="sessionId" value="76d8aec8233340fb965256d047f22969"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login via username/TC01 - Enter uname and pword" classname="Test Cases/Login via username/TC01 - Enter uname and pword" status="PASSED">
+         <system-out><![CDATA[2018-10-24 14:31:43 - [TEST_CASE][PASSED] - Test Cases/Login via username/TC01 - Enter uname and pword: Test Cases/Login via username/TC01 - Enter uname and pword
+
+2018-10-24 14:31:43 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-24 14:31:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-24 14:31:48 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.canva.com/' successfully
+
+2018-10-24 14:32:00 - [MESSAGE][PASSED] - Navigate to 'https://www.canva.com/' successfully
+
+2018-10-24 14:32:00 - [TEST_STEP][PASSED] - setText: Text 'agarcia@stratpoint.com' is set on object 'Object Repository/Page_Collaborate  Create Amazing Gr/input_For Work_email'
+
+2018-10-24 14:32:01 - [MESSAGE][PASSED] - Text 'agarcia@stratpoint.com' is set on object 'Object Repository/Page_Collaborate  Create Amazing Gr/input_For Work_email'
+
+2018-10-24 14:32:01 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Collaborate  Create Amazing Gr/input_For Work_password'
+
+2018-10-24 14:32:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Collaborate  Create Amazing Gr/input_For Work_password'
+
+2018-10-24 14:32:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Collaborate  Create Amazing Gr/button_Log in' is clicked on
+
+2018-10-24 14:32:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Collaborate  Create Amazing Gr/button_Log in' is clicked on
+
+2018-10-24 14:32:07 - [TEST_STEP][NOT_RUN] - closeBrowser: NOT_RUN: closeBrowser
+
+2018-10-24 14:32:07 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-24 14:31:42 - [TEST_SUITE][PASSED] - TS01 - Login: Test Cases/Login via username/TC01 - Enter uname and pword]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

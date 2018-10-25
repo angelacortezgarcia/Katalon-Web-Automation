@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS02 - Edit Account,Firefox 60.0,,2018-10-24 14:25:02,2018-10-24 14:25:31,29.827s,PASSED
+,,,,,,
+Test Cases/Edit Account Profile/TC02 - Edit profile,Firefox 60.0,,2018-10-24 14:25:02,2018-10-24 14:25:31,29.173s,PASSED
+callTestCase,Firefox 60.0,,2018-10-24 14:25:02,2018-10-24 14:25:24,21.956s,PASSED
+click,Firefox 60.0,,2018-10-24 14:25:24,2018-10-24 14:25:25,0.490s,PASSED
+click,Firefox 60.0,,2018-10-24 14:25:25,2018-10-24 14:25:29,4.315s,PASSED
+click,Firefox 60.0,,2018-10-24 14:25:29,2018-10-24 14:25:29,0.229s,PASSED
+setText,Firefox 60.0,,2018-10-24 14:25:29,2018-10-24 14:25:30,0.202s,PASSED
+setText,Firefox 60.0,,2018-10-24 14:25:30,2018-10-24 14:25:30,0.183s,PASSED
+setText,Firefox 60.0,,2018-10-24 14:25:30,2018-10-24 14:25:30,0.177s,PASSED
+click,Firefox 60.0,,2018-10-24 14:25:30,2018-10-24 14:25:30,0.328s,PASSED
+closeBrowser,Firefox 60.0,,2018-10-24 14:25:30,2018-10-24 14:25:31,0.865s,PASSED

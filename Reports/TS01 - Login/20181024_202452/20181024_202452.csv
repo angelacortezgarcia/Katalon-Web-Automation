@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS01 - Login,Chrome 69.0.3497.100,,2018-10-24 20:24:58,2018-10-24 20:25:33,34.432s,PASSED
+,,,,,,
+Test Cases/Login via username/TC01 - Enter uname and pword,Chrome 69.0.3497.100,,2018-10-24 20:24:59,2018-10-24 20:25:32,32.864s,PASSED
+openBrowser,Chrome 69.0.3497.100,,2018-10-24 20:25:00,2018-10-24 20:25:07,6.271s,PASSED
+navigateToUrl,Chrome 69.0.3497.100,,2018-10-24 20:25:07,2018-10-24 20:25:21,14.012s,PASSED
+setText,Chrome 69.0.3497.100,,2018-10-24 20:25:21,2018-10-24 20:25:22,1.088s,PASSED
+setEncryptedText,Chrome 69.0.3497.100,,2018-10-24 20:25:22,2018-10-24 20:25:22,0.352s,PASSED
+click,Chrome 69.0.3497.100,,2018-10-24 20:25:22,2018-10-24 20:25:32,9.797s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-24 20:25:32,2018-10-24 20:25:32,0.002s,NOT_RUN

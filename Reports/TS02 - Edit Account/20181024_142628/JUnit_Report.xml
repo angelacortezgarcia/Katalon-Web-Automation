@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS02 - Edit Account" time="29" tests="1" failures="0" errors="0">
+   <testsuite name="TS02 - Edit Account" tests="1" failures="0" errors="0" time="29" timestamp="2018-10-24 14:26:33" hostname="Guest Admin - 192.168.1.107" id="Test Suites/TS02 - Edit Account">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Guest Admin\\Desktop\\New folder\\Web Automation\\Reports\\TS02 - Edit Account\\20181024_142628"/>
+         <property name="logFiles" value="C:\\Users\\Guest Admin\\Desktop\\New folder\\Web Automation\\Reports\\TS02 - Edit Account\\20181024_142628\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Guest Admin - 192.168.1.107"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.0.1"/>
+         <property name="browser" value="Firefox 60.0"/>
+         <property name="hostAddress" value="192.168.1.107"/>
+         <property name="sessionId" value="a0bcc7d8-14e2-403a-8c4f-098aac6965e3"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Edit Account Profile/TC02 - Edit profile" classname="Test Cases/Edit Account Profile/TC02 - Edit profile" status="PASSED">
+         <system-out><![CDATA[2018-10-24 14:26:34 - [TEST_CASE][PASSED] - Test Cases/Edit Account Profile/TC02 - Edit profile: Test Cases/Edit Account Profile/TC02 - Edit profile
+
+2018-10-24 14:26:34 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Login via username/TC01 - Enter uname and pword' successfully
+
+2018-10-24 14:26:34 - [TEST_CASE][PASSED] - Test Cases/Login via username/TC01 - Enter uname and pword: Test Cases/Login via username/TC01 - Enter uname and pword
+
+2018-10-24 14:26:34 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-24 14:26:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-24 14:26:41 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.canva.com/' successfully
+
+2018-10-24 14:26:49 - [MESSAGE][PASSED] - Navigate to 'https://www.canva.com/' successfully
+
+2018-10-24 14:26:49 - [TEST_STEP][PASSED] - setText: Text 'agarcia@stratpoint.com' is set on object 'Object Repository/Page_Collaborate  Create Amazing Gr/input_For Work_email'
+
+2018-10-24 14:26:50 - [MESSAGE][PASSED] - Text 'agarcia@stratpoint.com' is set on object 'Object Repository/Page_Collaborate  Create Amazing Gr/input_For Work_email'
+
+2018-10-24 14:26:50 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Collaborate  Create Amazing Gr/input_For Work_password'
+
+2018-10-24 14:26:50 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Collaborate  Create Amazing Gr/input_For Work_password'
+
+2018-10-24 14:26:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Collaborate  Create Amazing Gr/button_Log in' is clicked on
+
+2018-10-24 14:26:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Collaborate  Create Amazing Gr/button_Log in' is clicked on
+
+2018-10-24 14:26:56 - [TEST_STEP][NOT_RUN] - closeBrowser: NOT_RUN: closeBrowser
+
+2018-10-24 14:26:56 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser
+
+2018-10-24 14:26:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login via username/TC01 - Enter uname and pword' successfully
+
+2018-10-24 14:26:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_All Your Designs  Canva/span_Gela garcia' is clicked on
+
+2018-10-24 14:26:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_All Your Designs  Canva/span_Gela garcia' is clicked on
+
+2018-10-24 14:26:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_All Your Designs  Canva/a_Account settings' is clicked on
+
+2018-10-24 14:27:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_All Your Designs  Canva/a_Account settings' is clicked on
+
+2018-10-24 14:27:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Your account settings  Canva/a_Profile' is clicked on
+
+2018-10-24 14:27:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Your account settings  Canva/a_Profile' is clicked on
+
+2018-10-24 14:27:01 - [TEST_STEP][PASSED] - setText: Text 'Gela garcia test' is set on object 'Object Repository/Edit Profile/Page_Your account settings  Canva/input_Name_textInput'
+
+2018-10-24 14:27:02 - [MESSAGE][PASSED] - Text 'Gela garcia test' is set on object 'Object Repository/Edit Profile/Page_Your account settings  Canva/input_Name_textInput'
+
+2018-10-24 14:27:02 - [TEST_STEP][PASSED] - setText: Text 'agarcia148360' is set on object 'Object Repository/Edit Profile/Page_Your account settings  Canva/input_Username_textInput'
+
+2018-10-24 14:27:02 - [MESSAGE][PASSED] - Text 'agarcia148360' is set on object 'Object Repository/Edit Profile/Page_Your account settings  Canva/input_Username_textInput'
+
+2018-10-24 14:27:02 - [TEST_STEP][PASSED] - setText: Text 'https://www.google.com' is set on object 'Object Repository/Edit Profile/Page_Your account settings  Canva/input_Website_textInput'
+
+2018-10-24 14:27:02 - [MESSAGE][PASSED] - Text 'https://www.google.com' is set on object 'Object Repository/Edit Profile/Page_Your account settings  Canva/input_Website_textInput'
+
+2018-10-24 14:27:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Profile/Page_Your account settings  Canva/button_Save changes' is clicked on
+
+2018-10-24 14:27:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Profile/Page_Your account settings  Canva/button_Save changes' is clicked on
+
+2018-10-24 14:27:02 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-24 14:27:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-24 14:26:33 - [TEST_SUITE][PASSED] - TS02 - Edit Account: Test Cases/Edit Account Profile/TC02 - Edit profile]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
